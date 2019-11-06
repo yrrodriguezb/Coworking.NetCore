@@ -1,0 +1,70 @@
+{
+  "format": 1,
+  "restore": {
+    "/home/yeison/Documentos/netcore/Coworking/Layers/1.2 Aplicacion/Application.Tests/Application.Tests.csproj": {}
+  },
+  "projects": {
+    "/home/yeison/Documentos/netcore/Coworking/Layers/1.2 Aplicacion/Application.Tests/Application.Tests.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/yeison/Documentos/netcore/Coworking/Layers/1.2 Aplicacion/Application.Tests/Application.Tests.csproj",
+        "projectName": "Application.Tests",
+        "projectPath": "/home/yeison/Documentos/netcore/Coworking/Layers/1.2 Aplicacion/Application.Tests/Application.Tests.csproj",
+        "packagesPath": "/home/yeison/.nuget/packages/",
+        "outputPath": "/home/yeison/Documentos/netcore/Coworking/Layers/1.2 Aplicacion/Application.Tests/obj/",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "/usr/share/dotnet/sdk/NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "/home/yeison/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp2.2"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp2.2": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp2.2": {
+          "dependencies": {
+            "MSTest.TestAdapter": {
+              "target": "Package",
+              "version": "[1.4.0, )"
+            },
+            "MSTest.TestFramework": {
+              "target": "Package",
+              "version": "[1.4.0, )"
+            },
+            "Microsoft.NET.Test.Sdk": {
+              "target": "Package",
+              "version": "[16.0.1, )"
+            },
+            "Microsoft.NETCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.2.0, )",
+              "autoReferenced": true
+            }
+          },
+          "imports": [
+            "net461"
+          ],
+          "assetTargetFallback": true,
+          "warn": true
+        }
+      }
+    }
+  }
+}

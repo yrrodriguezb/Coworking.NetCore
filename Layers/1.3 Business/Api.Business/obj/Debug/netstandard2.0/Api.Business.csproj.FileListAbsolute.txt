@@ -1,0 +1,9 @@
+/home/yeison/Documentos/netcore/Coworking/Layers/1.3 Business/Api.Business/bin/Debug/netstandard2.0/Api.Business.deps.json
+/home/yeison/Documentos/netcore/Coworking/Layers/1.3 Business/Api.Business/bin/Debug/netstandard2.0/Api.Business.dll
+/home/yeison/Documentos/netcore/Coworking/Layers/1.3 Business/Api.Business/bin/Debug/netstandard2.0/Api.Business.pdb
+/home/yeison/Documentos/netcore/Coworking/Layers/1.3 Business/Api.Business/obj/Debug/netstandard2.0/Api.Business.csproj.CoreCompileInputs.cache
+/home/yeison/Documentos/netcore/Coworking/Layers/1.3 Business/Api.Business/obj/Debug/netstandard2.0/Api.Business.AssemblyInfoInputs.cache
+/home/yeison/Documentos/netcore/Coworking/Layers/1.3 Business/Api.Business/obj/Debug/netstandard2.0/Api.Business.AssemblyInfo.cs
+/home/yeison/Documentos/netcore/Coworking/Layers/1.3 Business/Api.Business/obj/Debug/netstandard2.0/Api.Business.dll
+/home/yeison/Documentos/netcore/Coworking/Layers/1.3 Business/Api.Business/obj/Debug/netstandard2.0/Api.Business.pdb
+/home/yeison/Documentos/netcore/Coworking/Layers/1.3 Business/Api.Business/obj/Debug/netstandard2.0/Api.Business.csprojAssemblyReference.cache

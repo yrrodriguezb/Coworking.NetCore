@@ -1,0 +1,14 @@
+/home/yeison/Documentos/netcore/Coworking/Layers/1.2 Aplicacion/Application.Tests/bin/Debug/netcoreapp2.2/Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.dll
+/home/yeison/Documentos/netcore/Coworking/Layers/1.2 Aplicacion/Application.Tests/bin/Debug/netcoreapp2.2/Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.Interface.dll
+/home/yeison/Documentos/netcore/Coworking/Layers/1.2 Aplicacion/Application.Tests/bin/Debug/netcoreapp2.2/Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.dll
+/home/yeison/Documentos/netcore/Coworking/Layers/1.2 Aplicacion/Application.Tests/bin/Debug/netcoreapp2.2/Application.Tests.deps.json
+/home/yeison/Documentos/netcore/Coworking/Layers/1.2 Aplicacion/Application.Tests/bin/Debug/netcoreapp2.2/Application.Tests.runtimeconfig.json
+/home/yeison/Documentos/netcore/Coworking/Layers/1.2 Aplicacion/Application.Tests/bin/Debug/netcoreapp2.2/Application.Tests.runtimeconfig.dev.json
+/home/yeison/Documentos/netcore/Coworking/Layers/1.2 Aplicacion/Application.Tests/bin/Debug/netcoreapp2.2/Application.Tests.dll
+/home/yeison/Documentos/netcore/Coworking/Layers/1.2 Aplicacion/Application.Tests/bin/Debug/netcoreapp2.2/Application.Tests.pdb
+/home/yeison/Documentos/netcore/Coworking/Layers/1.2 Aplicacion/Application.Tests/obj/Debug/netcoreapp2.2/Application.Tests.csprojAssemblyReference.cache
+/home/yeison/Documentos/netcore/Coworking/Layers/1.2 Aplicacion/Application.Tests/obj/Debug/netcoreapp2.2/Application.Tests.csproj.CoreCompileInputs.cache
+/home/yeison/Documentos/netcore/Coworking/Layers/1.2 Aplicacion/Application.Tests/obj/Debug/netcoreapp2.2/Application.Tests.AssemblyInfoInputs.cache
+/home/yeison/Documentos/netcore/Coworking/Layers/1.2 Aplicacion/Application.Tests/obj/Debug/netcoreapp2.2/Application.Tests.AssemblyInfo.cs
+/home/yeison/Documentos/netcore/Coworking/Layers/1.2 Aplicacion/Application.Tests/obj/Debug/netcoreapp2.2/Application.Tests.dll
+/home/yeison/Documentos/netcore/Coworking/Layers/1.2 Aplicacion/Application.Tests/obj/Debug/netcoreapp2.2/Application.Tests.pdb

@@ -1,0 +1,14 @@
+/home/yeison/Documentos/netcore/Coworking/Layers/1.4 DataAccess/Api.DataAccess/bin/Debug/netstandard2.0/Api.DataAccess.deps.json
+/home/yeison/Documentos/netcore/Coworking/Layers/1.4 DataAccess/Api.DataAccess/bin/Debug/netstandard2.0/Api.DataAccess.dll
+/home/yeison/Documentos/netcore/Coworking/Layers/1.4 DataAccess/Api.DataAccess/bin/Debug/netstandard2.0/Api.DataAccess.pdb
+/home/yeison/Documentos/netcore/Coworking/Layers/1.4 DataAccess/Api.DataAccess/bin/Debug/netstandard2.0/Api.Business.dll
+/home/yeison/Documentos/netcore/Coworking/Layers/1.4 DataAccess/Api.DataAccess/bin/Debug/netstandard2.0/Api.DataAccess.Contracts.dll
+/home/yeison/Documentos/netcore/Coworking/Layers/1.4 DataAccess/Api.DataAccess/bin/Debug/netstandard2.0/Api.DataAccess.Contracts.pdb
+/home/yeison/Documentos/netcore/Coworking/Layers/1.4 DataAccess/Api.DataAccess/bin/Debug/netstandard2.0/Api.Business.pdb
+/home/yeison/Documentos/netcore/Coworking/Layers/1.4 DataAccess/Api.DataAccess/obj/Debug/netstandard2.0/Api.DataAccess.csprojAssemblyReference.cache
+/home/yeison/Documentos/netcore/Coworking/Layers/1.4 DataAccess/Api.DataAccess/obj/Debug/netstandard2.0/Api.DataAccess.csproj.CoreCompileInputs.cache
+/home/yeison/Documentos/netcore/Coworking/Layers/1.4 DataAccess/Api.DataAccess/obj/Debug/netstandard2.0/Api.DataAccess.AssemblyInfoInputs.cache
+/home/yeison/Documentos/netcore/Coworking/Layers/1.4 DataAccess/Api.DataAccess/obj/Debug/netstandard2.0/Api.DataAccess.AssemblyInfo.cs
+/home/yeison/Documentos/netcore/Coworking/Layers/1.4 DataAccess/Api.DataAccess/obj/Debug/netstandard2.0/Api.DataAccess.csproj.CopyComplete
+/home/yeison/Documentos/netcore/Coworking/Layers/1.4 DataAccess/Api.DataAccess/obj/Debug/netstandard2.0/Api.DataAccess.dll
+/home/yeison/Documentos/netcore/Coworking/Layers/1.4 DataAccess/Api.DataAccess/obj/Debug/netstandard2.0/Api.DataAccess.pdb
