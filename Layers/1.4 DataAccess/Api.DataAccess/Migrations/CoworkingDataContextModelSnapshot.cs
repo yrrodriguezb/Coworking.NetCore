@@ -25,13 +25,9 @@ namespace Api.DataAccess.Migrations
 
                     b.Property<string>("Name");
 
-                    b.Property<int>("OfficeId");
-
                     b.Property<string>("Phone");
 
                     b.HasKey("Id");
-
-                    b.HasIndex("OfficeId");
 
                     b.ToTable("Admins");
                 });
@@ -171,14 +167,6 @@ namespace Api.DataAccess.Migrations
                     b.HasKey("Id");
 
                     b.ToTable("Users");
-                });
-
-            modelBuilder.Entity("Api.DataAccess.Contracts.Entities.AdminEntity", b =>
-                {
-                    b.HasOne("Api.DataAccess.Contracts.Entities.OfficeEntity", "Office")
-                        .WithMany()
-                        .HasForeignKey("OfficeId")
-                        .OnDelete(DeleteBehavior.Cascade);
                 });
 
             modelBuilder.Entity("Api.DataAccess.Contracts.Entities.BookingEntity", b =>

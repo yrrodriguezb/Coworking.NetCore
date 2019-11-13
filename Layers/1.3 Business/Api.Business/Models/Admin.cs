@@ -1,3 +1,5 @@
+using System;
+
 namespace Coworking.Api.Bussiness.Models
 {
     public class Admin
@@ -6,6 +8,6 @@ namespace Coworking.Api.Bussiness.Models
         public string Name { get; set; }
         public string Phone { get; set; }
         public string Email { get; set; }
-        public int OfficeId { get; set; }
+        public DateTime HireDate { get; set; }
     }
 }

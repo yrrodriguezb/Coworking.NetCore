@@ -6,4 +6,3 @@
 /home/yeison/Documentos/netcore/Coworking/Layers/1.4 DataAccess/Api.DataAccess.Contracts/obj/Debug/netstandard2.0/Api.DataAccess.Contracts.AssemblyInfo.cs
 /home/yeison/Documentos/netcore/Coworking/Layers/1.4 DataAccess/Api.DataAccess.Contracts/obj/Debug/netstandard2.0/Api.DataAccess.Contracts.dll
 /home/yeison/Documentos/netcore/Coworking/Layers/1.4 DataAccess/Api.DataAccess.Contracts/obj/Debug/netstandard2.0/Api.DataAccess.Contracts.pdb
-/home/yeison/Documentos/netcore/Coworking/Layers/1.4 DataAccess/Api.DataAccess.Contracts/obj/Debug/netstandard2.0/Api.DataAccess.Contracts.csprojAssemblyReference.cache

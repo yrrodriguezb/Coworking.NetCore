@@ -46,7 +46,6 @@ namespace Api.DataAccess.Repositories
         public async Task<AdminEntity> Get(int idEntity) 
         { 
             var result = await _coworkingDbContext.Admins
-                .Include(a => a.Office)
                 .FirstOrDefaultAsync(a => a.Id == idEntity);
             
             return result;

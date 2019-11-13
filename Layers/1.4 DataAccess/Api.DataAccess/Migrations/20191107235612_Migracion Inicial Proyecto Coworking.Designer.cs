@@ -9,8 +9,8 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace Api.DataAccess.Migrations
 {
     [DbContext(typeof(CoworkingDataContext))]
-    [Migration("20191106015603_Se agrega columna OfficeId")]
-    partial class SeagregacolumnaOfficeId
+    [Migration("20191107235612_Migracion Inicial Proyecto Coworking")]
+    partial class MigracionInicialProyectoCoworking
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
@@ -27,13 +27,9 @@ namespace Api.DataAccess.Migrations
 
                     b.Property<string>("Name");
 
-                    b.Property<int>("OfficeId");
-
                     b.Property<string>("Phone");
 
                     b.HasKey("Id");
-
-                    b.HasIndex("OfficeId");
 
                     b.ToTable("Admins");
                 });
@@ -173,14 +169,6 @@ namespace Api.DataAccess.Migrations
                     b.HasKey("Id");
 
                     b.ToTable("Users");
-                });
-
-            modelBuilder.Entity("Api.DataAccess.Contracts.Entities.AdminEntity", b =>
-                {
-                    b.HasOne("Api.DataAccess.Contracts.Entities.OfficeEntity", "Office")
-                        .WithMany()
-                        .HasForeignKey("OfficeId")
-                        .OnDelete(DeleteBehavior.Cascade);
                 });
 
             modelBuilder.Entity("Api.DataAccess.Contracts.Entities.BookingEntity", b =>

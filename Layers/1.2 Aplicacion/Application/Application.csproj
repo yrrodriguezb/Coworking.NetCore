@@ -1,14 +1,15 @@
 <Project Sdk="Microsoft.NET.Sdk">
-
   <ItemGroup>
-    <ProjectReference Include="..\..\1.4 DataAccess\Api.DataAccess.Contracts\Api.DataAccess.Contracts.csproj" />
-    <ProjectReference Include="..\Contracts\Contracts.csproj" />
-    <ProjectReference Include="..\..\1.3 Business\Api.Business\Api.Business.csproj" />
-    <ProjectReference Include="..\..\1.4 DataAccess\Api.DataAccess\Api.DataAccess.csproj" />
+    <ProjectReference Include="..\..\1.4 DataAccess\Api.DataAccess.Contracts\Api.DataAccess.Contracts.csproj"/>
+    <ProjectReference Include="..\Contracts\Contracts.csproj"/>
+    <ProjectReference Include="..\..\1.3 Business\Api.Business\Api.Business.csproj"/>
+    <ProjectReference Include="..\..\1.4 DataAccess\Api.DataAccess\Api.DataAccess.csproj"/>
   </ItemGroup>
-
+  <ItemGroup>
+    <PackageReference Include="Polly" Version="7.1.1"/>
+    <PackageReference Include="Newtonsoft.Json" Version="12.0.3"/>
+  </ItemGroup>
   <PropertyGroup>
     <TargetFramework>netstandard2.0</TargetFramework>
   </PropertyGroup>
-
 </Project>

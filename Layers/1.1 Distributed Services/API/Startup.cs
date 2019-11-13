@@ -15,6 +15,7 @@ using Api.DataAccess;
 using Microsoft.EntityFrameworkCore;
 using Api.CrossCutting.Register;
 using Api.DataAccess.Contracts;
+using Coworking.API.Config;
 
 namespace API
 {
@@ -38,6 +39,7 @@ namespace API
             });
 
             IoCRegister.AddRegistration(services);
+            SwaggerConfig.AddRegistration(services);
 
             services.AddMvc().SetCompatibilityVersion(CompatibilityVersion.Version_2_2);
         }
@@ -55,6 +57,8 @@ namespace API
                 app.UseHsts();
             }
 
+            SwaggerConfig.AddRegistration(app);
+            
             app.UseHttpsRedirection();
             app.UseMvc();
         }

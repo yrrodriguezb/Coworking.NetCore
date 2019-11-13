@@ -56,9 +56,9 @@ namespace Api.DataAccess.Repositories
             return _coworkingDbContext.Bookings.AnyAsync(a => a.Id == id);
         }
 
-        public Task<IEnumerable<BookingEntity>> GetAll()
+        public async Task<IEnumerable<BookingEntity>> GetAll()
         {
-            throw new System.NotImplementedException();
+            return await _coworkingDbContext.Bookings.ToListAsync();
         }
 
         public async Task DeleteAsync(int id)

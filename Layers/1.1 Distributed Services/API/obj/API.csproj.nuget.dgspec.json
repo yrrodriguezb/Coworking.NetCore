@@ -70,6 +70,10 @@
               "target": "Package",
               "version": "[2.2.0, )",
               "autoReferenced": true
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[4.0.1, )"
             }
           },
           "imports": [
@@ -133,6 +137,14 @@
               "target": "Package",
               "version": "[2.0.3, )",
               "autoReferenced": true
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[12.0.3, )"
+            },
+            "Polly": {
+              "target": "Package",
+              "version": "[7.1.1, )"
             }
           },
           "imports": [
@@ -166,7 +178,11 @@
         },
         "frameworks": {
           "netstandard2.0": {
-            "projectReferences": {}
+            "projectReferences": {
+              "/home/yeison/Documentos/netcore/Coworking/Layers/1.3 Business/Api.Business/Api.Business.csproj": {
+                "projectPath": "/home/yeison/Documentos/netcore/Coworking/Layers/1.3 Business/Api.Business/Api.Business.csproj"
+              }
+            }
           }
         },
         "warningProperties": {

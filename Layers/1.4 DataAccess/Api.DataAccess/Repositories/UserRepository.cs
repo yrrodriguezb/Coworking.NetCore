@@ -56,9 +56,9 @@ namespace Api.DataAccess.Repositories
             return _coworkingDbContext.Users.AnyAsync(a => a.Id == id);
         }
 
-        public Task<IEnumerable<UserEntity>> GetAll()
+        public async Task<IEnumerable<UserEntity>> GetAll()
         {
-            throw new System.NotImplementedException();
+            return await _coworkingDbContext.Users.ToListAsync();
         }
 
         public async Task DeleteAsync(int id)

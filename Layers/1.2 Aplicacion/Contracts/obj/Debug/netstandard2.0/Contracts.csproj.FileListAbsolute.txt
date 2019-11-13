@@ -1,8 +1,12 @@
 /home/yeison/Documentos/netcore/Coworking/Layers/1.2 Aplicacion/Contracts/bin/Debug/netstandard2.0/Contracts.deps.json
 /home/yeison/Documentos/netcore/Coworking/Layers/1.2 Aplicacion/Contracts/bin/Debug/netstandard2.0/Contracts.dll
 /home/yeison/Documentos/netcore/Coworking/Layers/1.2 Aplicacion/Contracts/bin/Debug/netstandard2.0/Contracts.pdb
+/home/yeison/Documentos/netcore/Coworking/Layers/1.2 Aplicacion/Contracts/bin/Debug/netstandard2.0/Api.Business.dll
+/home/yeison/Documentos/netcore/Coworking/Layers/1.2 Aplicacion/Contracts/bin/Debug/netstandard2.0/Api.Business.pdb
+/home/yeison/Documentos/netcore/Coworking/Layers/1.2 Aplicacion/Contracts/obj/Debug/netstandard2.0/Contracts.csprojAssemblyReference.cache
 /home/yeison/Documentos/netcore/Coworking/Layers/1.2 Aplicacion/Contracts/obj/Debug/netstandard2.0/Contracts.csproj.CoreCompileInputs.cache
 /home/yeison/Documentos/netcore/Coworking/Layers/1.2 Aplicacion/Contracts/obj/Debug/netstandard2.0/Contracts.AssemblyInfoInputs.cache
 /home/yeison/Documentos/netcore/Coworking/Layers/1.2 Aplicacion/Contracts/obj/Debug/netstandard2.0/Contracts.AssemblyInfo.cs
+/home/yeison/Documentos/netcore/Coworking/Layers/1.2 Aplicacion/Contracts/obj/Debug/netstandard2.0/Contracts.csproj.CopyComplete
 /home/yeison/Documentos/netcore/Coworking/Layers/1.2 Aplicacion/Contracts/obj/Debug/netstandard2.0/Contracts.dll
 /home/yeison/Documentos/netcore/Coworking/Layers/1.2 Aplicacion/Contracts/obj/Debug/netstandard2.0/Contracts.pdb

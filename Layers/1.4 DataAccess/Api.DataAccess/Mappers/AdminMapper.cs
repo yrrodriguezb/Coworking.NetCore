@@ -12,7 +12,6 @@ namespace Coworking.Api.DataAccess
                 Email = dto.Email,
                 Id = dto.Id,
                 Name = dto.Name,
-                OfficeId = dto.OfficeId,
                 Phone = dto.Phone
             };
         }
@@ -24,7 +23,6 @@ namespace Coworking.Api.DataAccess
                 Email = entity.Email,
                 Id = entity.Id,
                 Name = entity.Name,
-                OfficeId = entity.OfficeId,
                 Phone = entity.Phone
             };
         }

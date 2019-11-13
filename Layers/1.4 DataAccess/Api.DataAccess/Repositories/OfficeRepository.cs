@@ -56,9 +56,9 @@ namespace Api.DataAccess.Repositories
             return _coworkingDbContext.Offices.AnyAsync(a => a.Id == id);
         }
 
-        public Task<IEnumerable<OfficeEntity>> GetAll()
+        public async Task<IEnumerable<OfficeEntity>> GetAll()
         {
-            throw new System.NotImplementedException();
+            return await _coworkingDbContext.Offices.ToListAsync();
         }
 
         public async Task DeleteAsync(int id)
