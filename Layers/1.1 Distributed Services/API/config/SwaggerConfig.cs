@@ -1,6 +1,8 @@
 using System.IO;
+using Coworking.API.Filters;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.Extensions.DependencyInjection;
+using Swashbuckle.AspNetCore.Swagger;
 
 namespace Coworking.API.Config
 {
@@ -16,6 +18,17 @@ namespace Coworking.API.Config
                     Title = "Coworking API V1",
                     Version = "v1"
                 });
+
+                // Habilitar un textbox para ingresar el token cuando el api requiere autenticacion
+                config.OperationFilter<AuthorizationHeaderParameterOperationFilter>();
+
+                // Autenticacion Global en Swagger
+                // config.AddSecurityDefinition("oauth2", new OAuth2Scheme(){
+                //     Description = "Autenticacion OAuth2",
+                //     TokenUrl = "https://localhost:5001/api/user/token",
+                //     Flow = "password",
+                //     Type = "OAuth2"
+                // });
 
                 // config.IncludeXmlComments(xmlPath);
             });

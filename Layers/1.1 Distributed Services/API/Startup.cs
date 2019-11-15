@@ -58,6 +58,8 @@ namespace API
             }
 
             SwaggerConfig.AddRegistration(app);
+            app.UseEjemploMiddleware();
+            // app.UseLogApplicationInsights(); -- Realizar configuracion Previa
             
             app.UseHttpsRedirection();
             app.UseMvc();

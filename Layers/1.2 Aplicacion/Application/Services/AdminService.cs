@@ -7,6 +7,7 @@ using Coworking.Api.Bussiness.Models;
 using Coworking.Api.DataAccess;
 using Coworking.Application.Configuration;
 using Coworking.Application.Contracts.Services;
+using Microsoft.Extensions.Caching.Memory;
 using Polly;
 
 namespace Coworking.Application.Services
@@ -15,11 +16,17 @@ namespace Coworking.Application.Services
     {
         private readonly IAdminRepository _AdminRepository;
         private readonly IAppConfig _appConfig;
+        // private readonly IMemoryCache _memoryCache;
 
-        public AdminService(IAdminRepository adminRepository, IAppConfig appConfig)
+        public AdminService(IAdminRepository adminRepository, IAppConfig appConfig) //, IMemoryCache memoryCache)
         {
             _AdminRepository = adminRepository;
             _appConfig = appConfig;
+            //_memoryCache = memoryCache;
+
+            // MemoryCacheEntryOptions chacheConfig = new MemoryCacheEntryOptions();
+            // chacheConfig.Priority = CacheItemPriority.Normal;
+            // chacheConfig.AbsoluteExpiration = DateTime.Now.AddMinutes(5); // appconfig.CacheExpiredInMinutes
         }
 
         public async Task<Admin> GetAdmin(int id)

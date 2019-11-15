@@ -15,7 +15,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Application", "Layers\1.2 A
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Contracts", "Layers\1.2 Aplicacion\Contracts\Contracts.csproj", "{1C9F63E2-F5EA-4548-B399-D62094A70AA4}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Application.Tests", "Layers\1.2 Aplicacion\Application.Tests\Application.Tests.csproj", "{416A5711-85A7-4212-AA5F-03EF64DE1D39}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Application.UnitTests", "Layers\1.2 Aplicacion\Application.UnitTests\Application.UnitTests.csproj", "{416A5711-85A7-4212-AA5F-03EF64DE1D39}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1.3 Business", "1.3 Business", "{83071BAD-E0E0-4B29-985C-A32DDF92E891}"
 EndProject
